@@ -43,6 +43,14 @@ path_to_cub = Path("/Users/coli/dataset")
 path_to_save_model = Path("../models")
 model_path = Path("../models/alexnet_places365.pth.tar")
 
+if not os.path.exists(path_to_save_model):
+  os.makedirs(path_to_save_model)
+  print(f"Directory '{path_to_save_model}' created.")
+  
+if not os.path.exists("data"):
+  os.makedirs("data")
+  print(f"Directory data created.")
+
 if not model_path.exists():
   try:
     urllib.request.urlretrieve("http://places2.csail.mit.edu/models_places365/alexnet_places365.pth.tar", model_path)
