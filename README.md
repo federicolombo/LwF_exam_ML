@@ -98,7 +98,7 @@ python train.py --help
 ### Running on Google Colab
 
 - I recommend using Google Colab due to its ease of setup and faster execution.
-[![🚀 Open in Colab](https://img.shields.io/badge/Open%20in-Google%20Colab-orange?logo=google-colab&style=for-the-badge)](https://colab.research.google.com/drive/1IpjkPncag0BgxxcclQEeoXXXiL59-mfK#scrollTo=ukqGY89_c3X9)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1IpjkPncag0BgxxcclQEeoXXXiL59-mfK#scrollTo=ukqGY89_c3X9)
 
 ## References
 
